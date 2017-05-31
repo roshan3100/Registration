@@ -1,0 +1,79 @@
+	 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: red;
+}
+
+li a:hover {
+    background-color: #111;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+#context{
+	background-color: transparent;
+	width: 700px;
+    height: 00px;
+    /*padding: 1% 0 0;*/
+    margin-left: 100px;
+    font-size: 2em;
+}
+#cont{
+    background:url("backu.gif");
+    width: 1670px;
+    height: 660px;
+    padding: 2% 0 0;
+    font-size: 2em;
+}
+#page{
+    background: url("back.jpg");
+    width: 1520px;
+    height: 720px;
+    padding: .1% 0 0;
+    color:black;
+}
+#footer{
+	border-bottom: 10x red;
+	padding: 1px 1px;
+	background-color: #333;
+	text-align: right;
+}
+input[type=text], input[type=number],input[type=file],select {
+    border-radius:5px;
+    height: 30px;
+    margin-right: 1px;
+}
+input[type=submit] {
+    width: 45%;
+    background-color: #4CAF50;
+    margin-left: 215px;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+p{
+    color: white;
+    text-align: right;
+    padding: 1px 1px;
+    text-decoration: none;
+    
+}
